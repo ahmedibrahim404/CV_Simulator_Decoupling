@@ -1,0 +1,39 @@
+{
+  "name": "Simulator",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "scripts": {
+    "build": "node esbuild.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedibrahim404/CV_Simulator_Decoupling.git"
+  },
+  "author": "Ahmed Ibrahim",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "font-awesome": "^4.7.0",
+    "sass": "^1.49.9",
+    "sass-loader": "^10",
+    "ttf-loader": "^1.0.2"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "bootstrap": "^4.5.0",
+    "canvas": "^2.6.1",
+    "codemirror": "^5.65.2",
+    "css-loader": "^3.4.2",
+    "dom-to-image": "^2.6.0",
+    "driver.js": "^0.9.8",
+    "esbuild": "^0.14.28",
+    "esbuild-plugin-sass": "^1.0.1",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-bundle": "^1.12.1-migrate",
+    "jquery-ui-dist": "^1.12.1",
+    "popper.js": "^1.16.1",
+    "style-loader": "^1.1.3",
+    "turbolinks": "^5.2.0"
+  }
+}
