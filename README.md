@@ -7,3 +7,7 @@
 To run it one time:
 - `npm run build`
 - Open `index.html`
+
+
+## Video
+![CV](https://user-images.githubusercontent.com/34144004/160242954-a6be7be2-f181-4b66-9ce8-a1c540a57916.gif)
