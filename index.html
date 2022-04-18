@@ -12,9 +12,15 @@
     var restrictedElements = [];
 </script>
 <script src="./js/plugins/jquery.min.js"></script>
-<script src="./dist/simulator.js"></script>
+<script src="./app/javascript/versionsController.js"></script>
 <script src="./js/plugins/bootstrap-input-spinner.js"></script>
-
+<script>
+  loadVersion();
+  function swapVersion(){
+    let versionToLoad = prompt("Please Enter Version to Load");
+    changeVersion(versionToLoad);
+  }
+</script>
 <link
     rel="stylesheet"
     type="text/css"
@@ -56,6 +62,7 @@
           <li><a class="dropdown-item logixButton text-left pl-1" id="recoverProject">Recover Project</a></li>
           <li><a class="dropdown-item logixButton text-left pl-1" id="fullViewOption">Preview Circuit</a></li>
           <li><a class="dropdown-item logixButton text-left pl-1" onclick="old_ui_redirect()">View Previous UI</a></li>
+          <li><a class="dropdown-item logixButton text-left pl-1" onclick="swapVersion()">Change Version</a></li>
         </ul>
       </li>
       <li class="dropdown nav-dropdown">
