@@ -1,4 +1,3 @@
-import './jquery';
 import 'bootstrap';
 import '../../src/app';
 import './src/sass/simulator.scss';
